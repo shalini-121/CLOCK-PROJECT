@@ -1,0 +1,59 @@
+#clockContainer {  
+    position: relative;      
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    border: 5px solid #f39c12;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3), inset 0px 0px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    border-radius: 10px;
+    transform-origin: bottom;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.9;  
+}
+
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.9;  
+}
+
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+    opacity: 0.9;
+}
+
+#digitalClock {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    color: #2ecc71;
+    background: linear-gradient(45deg, #f39c12, #d35400);
+    background-clip: text;
+    -webkit-background-clip: text;  /* For WebKit browsers */
+    -webkit-text-fill-color: transparent;  /* For making the text transparent */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
